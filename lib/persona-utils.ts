@@ -1,6 +1,6 @@
 import { RoleSlug } from "../types/portfolio";
 
-export function determineRoleConfig(
+export function determineActiveConfig(
     urlParams: string | null | undefined,
     dbDefault: RoleSlug
 ): RoleSlug {
